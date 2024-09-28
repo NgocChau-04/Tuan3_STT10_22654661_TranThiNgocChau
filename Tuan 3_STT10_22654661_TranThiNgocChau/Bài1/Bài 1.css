@@ -1,0 +1,106 @@
+body{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #6bc4ed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+}
+.nav{
+    position: absolute;
+   
+}
+.nav ul{
+   
+    list-style-type: none;
+}
+nav a{
+
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-p{
+    position: absolute;
+    font-size: 35px;
+    float: left;
+    margin: 10px ;
+    right: 20px;
+    text-shadow: 2px 2px 4px #0000ff, 0 0 10px #00aaff;
+}
+.content{
+    display: flex;
+   
+}
+.dashed-line{
+    border: 2px dotted white;
+}
+.dashed-line2{
+    border: 2px dotted white;
+    margin-top: 95px;
+}
+.footer{
+    text-align: center;
+    margin-top: 9px;
+}
+.ct2 img{
+    float: left;
+    margin-left: 100px;
+}
+.frm{
+    float: left;
+    margin: 5px;
+   
+}
+.ct1{
+    margin-left: 10px;
+}
+.fr1{
+    display: flex;
+}
+.fr2{
+    margin-left: 170px;
+}
+.sl{
+    margin: 10px;
+    border-radius: 3px;
+}
+label{
+    flex-basis: 40%;
+}
+input{
+    flex-basis: 60%;
+    margin: 5px;
+    border-radius: 3px;
+}
+select{
+    flex-basis: 60%;
+    
+}
+.text1{
+    margin: 100px;
+}
+.ct2{
+    margin-top: 40px;
+}
+.ct2 h1 {
+    color: #0000ff;
+    text-shadow: 2px 2px 4px #0000ff;
+    font-size: 28px;
+   
+}
+.ct2 p {
+    font-size: 18px;
+    color: #0000ff;
+   
+}
+
